@@ -21,7 +21,7 @@ h3 {
 	margin: 10px 0 0 0;
 	font-weight: 400;
 }
-img {
+img[alt="adorbz"] {
 	width: 100%;
 }
 a {
@@ -40,4 +40,5 @@ hr {
 }
 .logo {
 	margin-top: 20px;
+	overflow: hidden;
 }

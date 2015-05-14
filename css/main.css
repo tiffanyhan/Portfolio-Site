@@ -20,12 +20,11 @@ h3 {
 	font-size: 32px;
 	margin: 10px 0 0 0;
 	font-weight: 400;
-}
-img[alt="adorbz"] {
-	width: 100%;
+	overflow: auto;
 }
 a {
 	color: #BCBBBB;
+	overflow: auto;
 }
 p {
 	font-size: 20px;
@@ -38,7 +37,14 @@ hr {
 	background-color: rgba(80,80,80,1);
 	margin: 15px 0 25px 0;
 }
+.col-md-4 {
+	margin-bottom: 10px;
+}
+.col-md-4 img {
+	margin: 0 auto;
+}
+}
 .logo {
 	margin-top: 20px;
-	overflow: hidden;
+	overflow: auto;
 }

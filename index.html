@@ -2,29 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Brighton Times</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width:400px)" href="css/small.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width:600px)" href="css/medium.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width:800px)" href="css/large.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 550px)" href="small.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 475px)" href="xsmall.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 600px)" href="medium.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 800px)" href="large.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1000px)" href="xlarge.css">
     <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
 
     <header class="header">
       <div class="header__inner">
         <img class="header__logo" src="images/city.png" alt="iconic view of a cityscape">
-          <h1 class="header__title">
+        <h1 class="header__title">
           The Brighton Times
         </h1>
-          <button class="hamburger">&#9776;</button>
+        <button class="hamburger">&#9776;</button>
+      </div>
     </header>
 
-    <nav id="drawer">
+    <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item"><a href="#">News</a></li>
         <li class="nav__item"><a href="#">Events</a></li>
@@ -35,6 +38,8 @@
 
     <main>
       <section class="content">
+
+      <div class="hero__top-news">
         <section class="hero">
           <article class="description">
             <h2>Absolutely astonishing breaking news!</h2>
@@ -59,7 +64,9 @@
             </li>
           </ul>
         </section>
+      </div>
 
+        <div class="scores__weather">
         <section class="scores">
           <table class="scores__table">
             <thead>
@@ -141,6 +148,7 @@
             </li>
           </ul>
         </section>
+      </div>
 
         <section class="news recent-news">
           <h2 class="news__title">Latest news <a href="#" class="news__more">+ more</a></h2>
@@ -176,7 +184,7 @@
         </section>
       </section>
       <footer>
-        <ul class="footer">
+        <ul>
           <li><a href="#">Contact us</a></li>
           <li><a href="#">Follow us on Twitter</a></li>
           <li><a href="#">RSS</a></li>
@@ -185,10 +193,10 @@
     </main>
 
     <script>
-       $('button').on('click', function() {
-        $('.nav').toggleClass('show-menu');
+      $('button').click(function() {
+        $('nav').toggleClass('show-menu');
         $('main').toggleClass('move-down');
-    });
+      });
     </script>
 
   </body>

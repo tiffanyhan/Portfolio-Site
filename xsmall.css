@@ -1,0 +1,14 @@
+.header__inner {
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+}
+
+.header__title {
+	font-size: 2em;
+}
+
+.hamburger {
+	top: -5px;
+}

@@ -13,3 +13,19 @@
   display: inline-block;
   color: #212121;
 }
+main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+
+ }
+ nav#drawer {
+  position: static;
+  opacity: 1;
+}
+.hamburger {
+	position: relative;
+	top: -100px;
+}

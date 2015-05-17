@@ -375,6 +375,7 @@ footer ul {
 footer li {
   display: inline-block;
   margin: 0 1em;
+  text-align: right;
 }
 
 footer a {

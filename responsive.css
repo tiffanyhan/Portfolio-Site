@@ -14,6 +14,10 @@
 	-ms-flex-wrap: wrap;
 }
 
+.header__inner {
+	min-height: 62px;
+}
+
 @media screen and (max-width: 550px) {
 
 	.header__logo {
@@ -31,8 +35,8 @@
 		border: 0;
 		display: inline-block;
 		position: absolute;
-		right: 5px;
-		top: -5px;
+		right: 0;
+		top: 0;
 	}
 
 	nav {

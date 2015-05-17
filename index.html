@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -7,11 +7,7 @@
     <title>Brighton Times</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 550px)" href="small.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 475px)" href="xsmall.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 600px)" href="medium.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 800px)" href="large.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1000px)" href="xlarge.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
     <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
@@ -38,8 +34,6 @@
 
     <main>
       <section class="content">
-
-      <div class="hero__top-news">
         <section class="hero">
           <article class="description">
             <h2>Absolutely astonishing breaking news!</h2>
@@ -64,9 +58,7 @@
             </li>
           </ul>
         </section>
-      </div>
 
-        <div class="scores__weather">
         <section class="scores">
           <table class="scores__table">
             <thead>
@@ -148,7 +140,6 @@
             </li>
           </ul>
         </section>
-      </div>
 
         <section class="news recent-news">
           <h2 class="news__title">Latest news <a href="#" class="news__more">+ more</a></h2>
@@ -193,9 +184,8 @@
     </main>
 
     <script>
-      $('button').click(function() {
-        $('nav').toggleClass('show-menu');
-        $('main').toggleClass('move-down');
+      $('.hamburger').click(function() {
+        $('nav').toggleClass('open');
       });
     </script>
 

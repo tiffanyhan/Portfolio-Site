@@ -1,0 +1,96 @@
+.hamburger {
+	display: none;
+	padding: .6em;
+}
+
+.content {
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+}
+
+@media screen and (max-width: 550px) {
+
+	.header__logo {
+		display: none;
+	}
+
+	.header__title {
+		font-size: 2.5em;
+		margin: .5em 0 .5em .5em;
+	}
+
+	.hamburger {
+		font-size: 2em;
+		background-color: white;
+		border: 0;
+		display: inline-block;
+		position: absolute;
+		right: 5px;
+	}
+
+	nav {
+		max-width: 300px;
+		position: absolute;
+		z-index: 1;
+		background-color: white;
+		transform: translate(-300px,0);	
+		-webkit-transform: translate(-300px,0);
+		-moz-transform: translate(-300px,0);
+		-ms-transform: translate(-300px,0);
+		transition: transform .5s;
+		-webkit-transition: transform .5s;
+		-moz-transition: transform .5s;
+		-ms-transition: transform .5s;
+	}
+
+	.open {
+		transform: translate(0,0);
+		-webkit-transform: translate(0,0);
+		-moz-transform: translate(0,0);
+		-ms-transform: translate(0,0);
+	}
+
+	.nav__item {
+		display: block;
+		width: 100%;
+		border: 1px solid #E0E0E0;
+	}
+
+}
+
+@media screen and (max-width: 350px) {
+
+	.header__title {
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-width: 600px) {
+
+	.scores {
+		width: 50%;
+	}
+
+	.weather {
+		width: 50%;
+	}
+
+}
+
+@media screen and (min-width: 800px) {
+
+	.hero {
+		width: 66.66%;
+	}
+
+	.top-news {
+		width: 33.33%;
+	}
+
+}

@@ -1,108 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tiffany Han</title>
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+	<title>Portfolio | Tiffany Han</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+	<link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
 	<link href="//normalize-css.googlecode.com/svn/trunk/" rel="stylesheet" type="text/css">
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
-  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div class="container">
-		<div class="row header">
-			<div class="col-md-2 logo">
-				<img src="http://placekitten.com/140/120" class="img-responsive">
+		<section class="row header">
+			<div class="logo">
+				<p>TH</p>
 			</div>
-			<div class="col-md-10 title text-right">
+			<div class="title">
 				<h1>TIFFANY HAN</h1>
-				<p>FRONT-END NINJA</p>
+				<p>WEB DESIGNER | FRONT-END DEVELOPER</p>
 			</div>
-		</div>
-		<div class="row break">
-			<div class="col-md-12">
-				<hr>
+		</section>
+
+		<section class="inner">
+		<section class="row main">
+			<div class="design">
+				<div class="design-p">
+					<p>CLEAN, SIMPLE <br/>DESIGN</p>
+				</div>
+				<div class="design-art">
+					<img src="images/art-gallery-18.svg" alt="artist's pallette">
+				</div>
 			</div>
-		</div>
-		<div class="row main">
-			<div class="col-md-12 main">
-				<img src="http://placekitten.com/900/300" alt="adorbz" class="img-responsive">
+			<div class="function">
+				<div class="function-art">
+					<i class="fa fa-cogs"></i>
+				</div>
+				<div class="function-p">
+					<p>SLEEK <br/>FUNCTIONALITY</p>
+				</div>
 			</div>
-		</div>
-		<div class="row featured">
-			<div class="col-md-12 featured">
-				<h2>Featured Work</h2>
+		</section>
+
+		<section class="row services">
+			<div class="services-1">
+				<div class="services-art">
+					<i class="fa fa-user"></i>
+				</div>
+				<div class="services-content">
+					<h4>AWESOME USER EXPERIENCES</h4>
+					<p>Visitors to your site will have a seamless user experience on a website that looks and feels good</p>
+				</div>
 			</div>
-		</div>
-		<div class="row footer text-center">
-			<div class="col-md-4 onethird">
-				<img src="http://placekitten.com/290/150" class="img-responsive" data-toggle="modal" data-target="#project1">
-				<h3 data-toggle="modal" data-target="#project1">APPIFY</h3>
+			<div class="services-2">
+				<div class="services-art">
+					<i class="fa fa-laptop"></i>
+					<span class="mobile"><i class="fa fa-tablet"></i></span>
+					<span class="mobile"><i class="fa fa-mobile"></i></span>
+				</div>
+				<div class="services-content">
+					<h4>COMPLETE ACCESSIBILITY</h4>
+					<p>I use the principles of responsive design and development to make your website accessible across all devices and browsers</p>
+				</div>
+			</div>
+			<div class="services-3">
+				<div class="services-art">
+					<i class="fa fa-bar-chart"></i>
+				</div>
+				<div class="services-content">
+					<h4>PERFORMANCE OPTIMIZATION</h4>
+					<p>Industry best practices will reduce bandwidth needs, decrease latency, and get your site to load faster</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="row work">
+			<h2>FEATURED WORK.</h2>
+		</section>
+		<section class="row featured">
+			<div class="featured-item one">
+				<img src="http://placekitten.com/290/150">
+				<h3>APPIFY</h3>
 				<a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
 			</div>
-			<div class="col-md-4 twothird">
-				<img src="http://placekitten.com/290/150" class="img-responsive" data-toggle="modal" data-target="#project2">
-				<h3 data-toggle="modal" data-target="#project2">SUNFLOWER</h3>
+			<div class="featured-item two">
+				<img src="http://placekitten.com/290/150">
+				<h3>SUNFLOWER</h3>
 				<a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
 			</div>
-			<div class="col-md-4 threethird">
-				<img src="http://placekitten.com/290/150" class="img-responsive" data-toggle="modal" data-target="#project3">
-				<h3 data-toggle="modal" data-target="#project3">BOKEH</h3>
+			<div class="featured-item three">
+				<img src="http://placekitten.com/290/150">
+				<h3>BOKEH</h3>
 				<a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
 			</div>
-		</div>
-	</div>
-<!-- Modal 1-->
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">APPIFY</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="http://placekitten.com/290/150">
-        This was my first project in this class. I learned a lot about HTML and CSS.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal 2-->
-<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">SUNFLOWER</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="http://placekitten.com/290/150">
-        This was my second project in this class. I learned a lot about HTML and CSS.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal 3-->
-<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">BOKEH</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="http://placekitten.com/290/150">
-        This was my third project in this class. I learned a lot about HTML and CSS.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+		</section>
+
+		<section class="row footer">
+		<section class="about">
+			<p><span class="footer-title">ABOUT ME.</span>  I am a self-taught web designer and front-end developer.  My tools of choice include HTML, CSS, Javascript, jQuery, and Ruby on Rails (in progress).  Currently I am a student of philosophy at UCLA and before that, I studied jazz guitar at Pasadena City College.  Besides design and web development, I heart minimalism, lifting weights, and being on two wheels.</p>
+		</section>
+		<section class="contact">
+			<p><span class="footer-title">GET IN TOUCH.</span>  Right now I'm in the process of building my portfolio.  Contact me if you'd like to work together!  My email:<br/><a href="mailto:hantiffany@gmail.com">hantiffany@gmail.com</a>
+			</p>
+		</section>
+		</section>
+	</section>
 </body>
 </html>

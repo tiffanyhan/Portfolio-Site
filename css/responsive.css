@@ -1,5 +1,10 @@
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 350px) {
+	.services-content {
+		padding: 0;
+	}
+}
 
+@media screen and (max-width: 500px) {
 	.title {
 		padding: 20px 0;
 	}
@@ -16,11 +21,9 @@
 		position: relative;
 		top: -15px;
 	}
-
 }
 
 @media screen and (min-width: 550px) {
-
 	.about {
 		margin-right: 5%;
 		width: 60%;
@@ -31,17 +34,15 @@
 		width: 35%;
 		padding: 0;
 	}
-
 }
 
 @media screen and (min-width: 501px) and (max-width: 700px) {
-
 	.title {
 		padding: 40px 0;
 	}
 
 	.services-content {
-		padding-right: 2%;
+		padding: 0 2% 0 0;
 	}
 
 	.services-art {
@@ -64,169 +65,168 @@
 	.featured-item img {
 		width: 100%;
 	}
-
 }
 
-	@media screen and (min-width: 501px) {
-
-		h1 {
-			font-size: 50px;
-		}
-
-		.title p {
-			font-size: 18px;
-		}
-
-		.design-p, .function-p {
-			font-size: 2em;
-		}
-
-		.design-art img {
-			width: 150px;
-		}
-
-		.function-art i {
-			font-size: 120px;
-			margin-top: 20px;
-		}
-
-		.mobile {
-			font-size: 35px;
-		}
-
-		.featured h3 {
-			font-size: 28px;
-		}
-
+@media screen and (min-width: 501px) {
+	h1 {
+		font-size: 50px;
 	}
 
-	@media screen and (max-width: 700px) {
-
-		.title {
-			width: 100%;
-			text-align: center;
-		}
-
-		.services-1, .services-2, .services-3 {
-			display: flex;
-			display: -webkit-flex;
-		}
-
-		.services p:last-of-type {
-			margin-bottom: 25px;
-		}
-
+	.title p {
+		font-size: 18px;
 	}
 
-	@media screen and (min-width: 701px) {
-
-		.logo {
-			display: block;
-			width: 33.33%;
-	 		margin-top: 20px;
-	 		font-family: 'Crafty Girls', cursive;
-	 	}
-
-	 	.logo p {
-	 		font-size: 50px;
-	 		width: 100px;
-	 		height: 100px;
-	 		color: beige;
-	 		background-color: #778472;
-	 		border: 5px solid beige;
-	 		border-radius: 100px;
-	 		padding: 10px;
-	 		margin: 5px 0 0 20px;
-	 	}
-
-	 	.title {
-			text-align: right;
-			width: 66.66%;
-			padding: 30px 2% 30px 0;
-		}
-
-		.services {
-			text-align: center;
-			padding: 30px 0;
-		}
-
-		.services-art {
-			width: 100%;
-			font-size: 60px;
-			padding: 10px;
-		}
-
-		.services-content {
-			width: 100%;
-		}
-
-		.services h4 {
-			margin: 0 0 5px 0;
-		}
-
-		.work h2 {
-			margin-top: 30px;
-			font-size: 30px;
-		}
-
-		.featured-item {
-			width: 33.33%;
-		}
-
+	.design-p,
+	.function-p {
+		font-size: 2em;
 	}
 
-	@media screen and (min-width: 701px) and (max-width: 900px) {
-
-		.services {
-			max-width: 700px;
-			margin: 0 auto;
-		}
-
-		.services-1, .services-2, .services-3 {
-			width: 50%;
-			display: block;
-		}
-
-		.services-3 {
-			margin: 0 auto;
-			margin-top: 30px
-		}
-
-		h4 {
-			margin: 0 0 5px 0;
-		}
-
+	.design-art img {
+		width: 150px;
 	}
 
-	@media screen and (min-width: 901px) {
-
-		.logo p {
-			margin: 20px 0 0 30px;
-		}
-
-		.header {
-			margin-bottom: 50px;
-		}
-
-		.title h1 {
-			font-size: 70px;
-		}
-
-		.title p {
-			font-size: 20px;
-		}
-
-		.services-1, .services-2, .services-3 {
-			width: 33.33%;
-		}
-
+	.function-art i {
+		font-size: 120px;
+		margin-top: 20px;
 	}
 
-	@media screen and (min-width: 1000px) {
-
-		.inner {
-			max-width: 1000px;
-			margin: 0 auto;
-		}
-
+	.mobile {
+		font-size: 35px;
 	}
+
+	h3 {
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.title {
+		width: 100%;
+		text-align: center;
+	}
+
+	.services-1,
+	.services-2,
+	.services-3 {
+		display: flex;
+		display: -webkit-flex;
+	}
+
+	.services p:last-of-type {
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (min-width: 701px) {
+	.logo {
+		display: block;
+		width: 33.33%;
+ 		margin-top: 20px;
+ 		font-family: 'Crafty Girls', cursive;
+ 	}
+
+ 	.logo p {
+ 		font-size: 50px;
+ 		width: 100px;
+ 		height: 100px;
+ 		color: beige;
+ 		background-color: #778472;
+ 		border: 5px solid beige;
+ 		border-radius: 100px;
+ 		padding: 10px;
+ 		margin: 5px 0 0 20px;
+ 	}
+
+ 	.title {
+		text-align: right;
+		width: 66.66%;
+		padding: 30px 2% 30px 0;
+	}
+
+	.services {
+		text-align: center;
+		padding: 30px 0;
+	}
+
+	.services-1,
+	.services-2,
+	.services-3 {
+		padding: 0 2%;
+	}
+
+	.services-art {
+		width: 100%;
+		font-size: 60px;
+		padding: 10px;
+	}
+
+	.services-content {
+		width: 100%;
+	}
+
+	h4 {
+		margin: 0 0 5px 0;
+	}
+
+	h2 {
+		margin-top: 30px;
+		font-size: 30px;
+	}
+
+	.featured-item {
+		width: 33.33%;
+	}
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+	.services {
+		max-width: 700px;
+		margin: 0 auto;
+	}
+
+	.services-1,
+	.services-2,
+	.services-3 {
+		width: 50%;
+		display: block;
+	}
+
+	.services-3 {
+		margin: 0 auto;
+		margin-top: 30px
+	}
+
+	h4 {
+		margin: 0 0 5px 0;
+	}
+}
+
+@media screen and (min-width: 901px) {
+	.logo p {
+		margin: 20px 0 0 30px;
+	}
+
+	header {
+		margin-bottom: 50px;
+	}
+
+	h1 {
+		font-size: 70px;
+	}
+
+	.title p {
+		font-size: 20px;
+	}
+
+	.services-1,
+	.services-2,
+	.services-3 {
+		width: 33.33%;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	main, footer {
+		max-width: 1000px;
+	}
+}
